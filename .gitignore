@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+
+# Models (optional: you can include later if small)
+models/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
