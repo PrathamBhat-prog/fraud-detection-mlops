@@ -54,6 +54,8 @@ This project focuses on **optimizing recall while controlling false positives**.
 
 ---
 ## 📁 Project Structure
+
+```text
 fraud-detection/
 │
 ├── app/
@@ -74,6 +76,8 @@ fraud-detection/
 │
 ├── requirements.txt
 └── README.md
+```
+
 ---
 
 ## 🚀 How to Run
@@ -81,13 +85,19 @@ fraud-detection/
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-### 2.Train model
+### 2. Train model
+```bash
 python src/train.py
+```
 
 ### 3. Run API
+```bash
 uvicorn app.main:app --reload
+```
 
 ### 4. Launch frontend (Gradio UI)
+```bash
 python app/gradio_app.py
-
+```
