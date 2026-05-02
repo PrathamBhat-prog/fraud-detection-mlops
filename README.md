@@ -88,6 +88,6 @@ python src/train.py
 ### 3. Run API
 uvicorn app.main:app --reload
 
-
-
+### 4. Launch frontend (Gradio UI)
+python app/gradio_app.py
 
