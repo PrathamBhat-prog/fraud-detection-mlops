@@ -6,3 +6,5 @@ seaborn
 fastapi
 uvicorn
 mlflow
+gradio
+requests
